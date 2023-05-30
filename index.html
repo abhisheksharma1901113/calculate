@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var p=parseInt(prompt("Enter the Amount :"))
+var r=parseInt(prompt("Enter the rate :"))
+var t=parseInt(prompt("Enter the Time"))
+var si =p*r*t/100
+var total=si+p
+var emi=total/(t*12)
+document.write (
+    `Princpla Amount                   :${p}<br>
+    Time                               :${t}<br>
+    Rate                               :${r}<br>
+    simple                             :${si}<br>
+    Totall                             :${total}<br>
+    Emi                                :${emi} You have to pay in monthly`
+)
+
+    </script>
+    
+</body>
+</html>
